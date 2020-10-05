@@ -9,10 +9,10 @@ for line in fString.split('\n'):
     fList.append(line.split(','))
 
 # Connect to the database
-#connection = pymysql.connect(host="213.190.6.106",
-                             #user="u831388458_covid19",
-                             #password="Password@123",
-                             #db="u831388458_covid19stats")
+#connection = pymysql.connect(host="",
+                             #user="",
+                             #password="",
+                             #db="")
 
 connection = pymysql.connect(host="localhost",
                              user="root",
